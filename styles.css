@@ -1,0 +1,43 @@
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin: auto;
+}
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+h1,h2,h3,p
+{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+img
+{
+    width: 200px;
+    height: 200px;
+}
+div
+{
+   background-image: url(images/background-2-1.jpg);
+   background-position: center;
+   height: 50vh;    
+   align-content: center;
+   
+}
+
+th
+{
+    background-color: #888;
+    font-size: 20px;
+}
+tr {
+    transition: background 0.3s ease; /* Smooth transition */
+  }
+  
+  tr:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Light gray background on hover */
+  }
