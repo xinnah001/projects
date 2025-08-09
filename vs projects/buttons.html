@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://www.google.com/" target="_blank" title="heaven">
+        <button style="font-size: 20px;background-color: aqua; border-radius: 25px;">click me</button>
+    </a>
+    <br>
+    <br>
+
+    <button onclick="dosomething()" style="font-size: medium;">change</button>
+    <p id="greetings">hello</p>
+
+    <script>
+        function dosomething(){
+            document.getElementById("greetings").innerHTML = "goodmorning"
+
+        }
+    </script>
+</body>
+</html>

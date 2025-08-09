@@ -1,0 +1,14 @@
+form{
+    border: 2px;
+    background-image: ;
+}
+button{
+    align-items: center;
+    color: #007bff;
+    text-shadow: white;
+    
+}
+button :hover{
+    background-color: #0056b3;
+    
+}

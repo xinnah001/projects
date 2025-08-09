@@ -1,0 +1,46 @@
+<!--PART C -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shipment Table</title>
+
+
+        <style>
+            .delayed{
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th>Shipment ID</th>
+                    <th>Destination</th>
+                    <th>Status</th>
+                    <th>Estimated Delivery Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="delayed">
+                    <td>001</td>
+                    <td>nairobi</td>
+                    <td>on route</td>
+                    <td>14/2/2024</td>
+                </tr>
+                <tr>
+                    <td>oo2</td>
+                    <td>kilifi</td>
+                    <td>Delivered</td>
+                    <td>25/1/2024</td>
+                </tr>
+                <tr class="delayed">
+                    <td>003</td>
+                    <td>mombasa</td>
+                    <td>delayed</td>
+                    <td>30/3/2025</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
